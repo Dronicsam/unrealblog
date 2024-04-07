@@ -4,7 +4,9 @@
   "type": "module",
   "devDependencies": {
     "@types/bun": "latest",
-    "@types/react": "18.2.74"
+    "@types/react": "18.2.74",
+    "postcss-preset-mantine": "^1.13.0",
+    "postcss-simple-vars": "^7.0.1"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
@@ -20,6 +22,10 @@
     "prettier": "prettier --write ."
   },
   "dependencies": {
+    "@mantine/carousel": "^7.7.1",
+    "@mantine/core": "^7.7.1",
+    "@mantine/hooks": "^7.7.1",
+    "embla-carousel-react": "^8.0.1",
     "next": "^14.1.4",
     "prettier": "^3.2.5",
     "react": "^18.2.0",
