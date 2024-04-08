@@ -1,0 +1,12 @@
+@import "colors";
+@import "fonts";
+
+.root {
+  background: $sand;
+  &Body{
+    font-family: $Montserrat;
+    margin-top: 10px;
+    margin-left: 45px;
+    margin-right: 45px;
+  }
+}
