@@ -1,3 +1,3 @@
 import { Home } from "routes/Home";
 
-export default Home
+export default Home;

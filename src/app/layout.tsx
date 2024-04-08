@@ -4,8 +4,7 @@ import { ColorSchemeScript, MantineProvider } from "@mantine/core";
 import type { ReactNode } from "react";
 
 export const metadata = {
-  title: "My Mantine app",
-  description: "I have followed setup instructions carefully",
+  title: "Dronicsam`s blog",
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
@@ -13,9 +12,9 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     <html lang="en">
       <head>
         <ColorSchemeScript />
-        <title></title>
+        <title>{metadata.title}</title>
       </head>
-      <body>
+      <body style={{ background: "#FDF5DF" }}>
         <MantineProvider>{children}</MantineProvider>
       </body>
     </html>
