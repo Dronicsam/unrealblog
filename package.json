@@ -1,6 +1,5 @@
 {
   "name": "myblog",
-  "module": "index.ts",
   "type": "module",
   "devDependencies": {
     "@feature-sliced/eslint-config": "^0.1.0-beta.6",
@@ -23,7 +22,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint && tsc --noEmit && bun eslint . --ext .ts,.tsx --max-warnings=0 && bun prettier --check .",
+    "lint": "next lint --fix && tsc --noEmit && bun eslint . --ext .ts,.tsx --max-warnings=0 && bun prettier --check .",
     "lint:type": "tsc --noEmit",
     "lint:eslint": "eslint . --ext .ts,.tsx --max-warnings=0",
     "lint:prettier": "prettier --check .",
@@ -40,5 +39,6 @@
     "react-dom": "^18.2.0",
     "sass": "^1.74.1",
     "scss": "^0.2.4"
-  }
+  },
+  "module": "index.ts"
 }
