@@ -13,7 +13,7 @@
     border-radius: 45px;
     cursor: pointer;
     grid-column: 2;
-    height: 6vh;
+    height: 55px;
     width: fit-content;
     margin-top: 5px;
     margin-left: 1vw;
@@ -26,7 +26,7 @@
     flex-direction: row;
     column-gap: 3vw;
     &Text {
-      color: black;
+      color: $darkRed;
       text-decoration: none;
       position: relative;
       &::before {
@@ -36,7 +36,7 @@
         left: 0;
         width: 0;
         height: 1px;
-        background: black;
+        background: $darkRed;
         transition: 0.5s;
       }
       &:hover::before {
