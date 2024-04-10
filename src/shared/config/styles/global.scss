@@ -1,0 +1,35 @@
+@import "colors";
+@import "fonts";
+
+.root {
+  background: $sand;
+  &Body {
+    margin-top: 10px;
+    margin-left: 45px;
+    margin-right: 45px;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $darkRed;
+  font-weight: normal;
+  font-family: $Oswald;
+  font-size: 40px;
+}
+
+p {
+  font-family: $Montserrat;
+  font-size: 16px;
+}
+
+a {
+  font-size: 16px;
+  text-decoration: none;
+  font-family: $Montserrat;
+  color: $darkRed;
+}

@@ -1,0 +1,17 @@
+@import "shared/config/styles/fonts";
+@import "shared/config/styles/colors";
+
+.container {
+  margin-top: 15vh;
+  text-align: center;
+  @media screen and (min-width: 768px) {
+    margin-top: 20vh;
+  }
+  &Element {
+    color: $pink;
+    opacity: 0.3;
+    font-family: $Yarndings;
+    font-size: 30px;
+    text-wrap: normal;
+  }
+}

@@ -1,0 +1,25 @@
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 3vh;
+  &Element {
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &Text {
+      font-size: 20px;
+      transition: 0.3s ease-in-out;
+      &:hover {
+        font-size: 40px;
+        transition: 0.4s ease-in-out;
+      }
+    }
+  }
+}
+
+.spacer {
+  width: 10px;
+  height: 10px;
+}

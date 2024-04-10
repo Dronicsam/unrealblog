@@ -12,7 +12,7 @@ export const Header = () => (
       <Link href="/contacts" className={styles.containerLinksText}>
         Контакты
       </Link>
-      <Link href="/works" className={styles.containerLinksText}>
+      <Link href="/" className={styles.containerLinksText}>
         Портфолио
       </Link>
     </div>

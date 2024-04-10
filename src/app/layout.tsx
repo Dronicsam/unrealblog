@@ -4,7 +4,7 @@ import { ColorSchemeScript, MantineProvider } from "@mantine/core";
 import type { ReactNode } from "react";
 import { Footer } from "widgets/Footer";
 import { Header } from "widgets/Header";
-import styles from "shared/config/styles/global.module.scss";
+import "shared/config/styles/global.scss";
 
 export const metadata = {
   title: "Dronicsam`s blog",
@@ -17,10 +17,10 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <ColorSchemeScript />
         <title>{metadata.title}</title>
       </head>
-      <body className={styles.root}>
+      <body className="root">
         <Header />
         <MantineProvider>
-          <div className={styles.rootBody}>{children}</div>
+          <div className="rootBody">{children}</div>
         </MantineProvider>
         <Footer />
       </body>
